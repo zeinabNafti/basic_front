@@ -1,5 +1,9 @@
 const panels = document.querySelectorAll('.panel');
-
+const title = document.querySelector(".ali");
+title.style.color = "red";
+document.addEventListener("click", () => {
+  alert("HI ZEYNAB");
+});
 panels.forEach(panel => {
     panel.addEventListener('click', () => {
         removeActiveClass();
